@@ -1,10 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type {NextPage} from 'next'
+import OverView from "~/component/OverView/OverView";
+import Layout from "~/component-system/Layout/layout";
 
 const Home: NextPage = () => {
   return (
-    <div>123</div>
+    <Layout>
+      <OverView/>
+    </Layout>
   )
 }
 

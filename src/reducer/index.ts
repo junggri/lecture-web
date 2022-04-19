@@ -1,9 +1,6 @@
 import {combineReducers} from "redux";
-import hit from "./hit";
 
-const rootReducer = combineReducers({
-  hit
-})
+const rootReducer = combineReducers({})
 
 
 export default rootReducer

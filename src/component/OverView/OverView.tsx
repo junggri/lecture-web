@@ -9,8 +9,8 @@ interface Props {
 }
 
 const OverView: FC<Props> = memo(() => {
-  const headerRef = useRef<Element | null>(null)
-  const overViewRef = useRef<Element | null>(null)
+  const headerRef = useRef<HTMLDivElement | null>(null)
+  const overViewRef = useRef<HTMLDivElement | null>(null)
   const [minHeight, setMinHeight] = useState<number>(0)
   const [maxHeight, setMaxHeight] = useState<number>(0)
 

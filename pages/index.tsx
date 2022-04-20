@@ -1,12 +1,13 @@
 import type {NextPage} from 'next'
 import OverView from "~/component/OverView/OverView";
-import Layout from "~/component-system/Layout/layout";
+import ContentBody from "~/component/ContentBody/ContentBody";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <div>
       <OverView/>
-    </Layout>
+      <ContentBody/>
+    </div>
   )
 }
 

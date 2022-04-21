@@ -1,0 +1,25 @@
+.navWrap {
+  padding: 20px 0;
+  background: #2A2E2A;
+
+  .wrapper {
+
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+
+      ul {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+
+        li {
+          font-size: 18px;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

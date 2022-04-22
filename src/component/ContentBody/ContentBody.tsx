@@ -8,7 +8,6 @@ import Intro from "~/component/Intro/Intro";
 const ContentBody = memo(() => {
   return (
     <div className={styles.contentBody}>
-
       <Intro/>
     </div>
   )
